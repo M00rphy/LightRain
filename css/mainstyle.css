@@ -1,0 +1,112 @@
+/*To add color to the body without being automatic*/
+.backgroundColor {
+  background-color: #30966d;
+  margin: auto;
+  width: 100%;
+  height: 100%
+}
+
+/*Used to add the background image*/
+.bgimg {
+  background-image: url('../images/siteBG.png');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: relative;
+  position: relative;
+  color: white;
+  font-family: 'Future';
+  font-size: 20px;
+}
+
+/* topleft is for the Light Rain logo in the coming soon index.php*/
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 12px;
+}
+
+/*bottomLeft used for aligning "Are you a tester?, if so click here"*/
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+}
+
+/*Aligment of the "Coming soon" sign with countdown*/
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*bar underneath spliting "COMING SOON" and the countdown*/
+hr {
+  margin: auto;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Future';
+  src: url('fonts/exan-regular-webfont.woff2') format('woff2'),
+    url('fonts/exan-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.registerButton {
+  border-top: 1px solid #590505;
+  background: #9900cc;
+  background: -o-linear-gradient(top, #9900cc, #030608);
+  padding: 10.5px 21px;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  color: white;
+  font-size: 20px;
+  font-family: 'Future';
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.registerButton:hover {
+  border-top-color: #660066;
+  background: #cc33ff;
+  color: #ffffff;
+}
+
+.registerButton:active {
+  border-top-color: #030608;
+  background: #030608;
+}
+
+.loginButton {
+  border-top: 1px solid #590505;
+  background: #660033;
+  background: -o-linear-gradient(top, #660033, #030608);
+  padding: 10.5px 21px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  color: white;
+  font-size: 20px;
+  font-family: 'Future';
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.loginButton:hover {
+  border-top-color: #660066;
+  background: #990033;
+  color: #ffffff;
+}
+
+.loginButton:active {
+  border-top-color: #800000;
+  background: #800000;
+}

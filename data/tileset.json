@@ -1,0 +1,14 @@
+{
+    "columns": 82,
+    "image": "../images/tileset.png",
+    "imageheight": 5740,
+    "imagewidth": 5740,
+    "margin": 0,
+    "name": "Tiles",
+    "spacing": 0,
+    "tilecount": 6724,
+    "tileheight": 70,
+    "tilewidth": 70,
+    "transparentcolor": "#000000",
+    "type": "tileset"
+}

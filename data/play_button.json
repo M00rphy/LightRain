@@ -1,0 +1,10 @@
+{
+    "play_button": {
+        "sx": 0,
+        "sy": 1,
+        "cols": 26,
+        "tilew": 117,
+        "tileh": 63,
+        "frames": 9
+    }
+}
